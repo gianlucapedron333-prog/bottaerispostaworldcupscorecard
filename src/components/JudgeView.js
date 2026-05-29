@@ -14,7 +14,6 @@ export default function JudgeView({ judgeNumber, judgeName, sessionData, onLogou
   const topic = sessionData?.topic || '';
   const teamPro = sessionData?.teamPro || 'Pro';
   const teamCons = sessionData?.teamCons || 'Cons';
-  const numJudges = sessionData?.numJudges || 3;
 
   // Load existing answers from Firebase
   useEffect(() => {

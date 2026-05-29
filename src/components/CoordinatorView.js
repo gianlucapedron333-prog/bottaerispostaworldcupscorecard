@@ -1,7 +1,7 @@
 // src/components/CoordinatorView.js
 import React, { useState, useEffect, useRef } from 'react';
 import { db } from '../firebase/config';
-import { ref, set, get, remove, onValue } from 'firebase/database';
+import { ref, set, remove, onValue } from 'firebase/database';
 import { PHASES, aggregateResults, calculateFinalScore, scorePhase, isPhaseComplete } from '../phases';
 
 export default function CoordinatorView({ sessionData, judgeName, onLogout }) {

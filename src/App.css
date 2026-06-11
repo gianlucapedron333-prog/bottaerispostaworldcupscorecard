@@ -1,7 +1,7 @@
-/* App.css — Botta e Risposta World Cup 2026 */
+/* App.css â€” Botta e Risposta World Cup 2026 */
 @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;600;700&family=DM+Mono:wght@400;500&family=Outfit:wght@300;400;500;600;700&display=swap');
 
-/* ── VARIABLES ────────────────────────────────────────────────────────────── */
+/* â”€â”€ VARIABLES â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ */
 :root {
   --bg:           #0b0d12;
   --bg2:          #12151e;
@@ -42,7 +42,7 @@
   --shadow-lg:    0 8px 48px rgba(0,0,0,0.6);
 }
 
-/* ── RESET ────────────────────────────────────────────────────────────────── */
+/* â”€â”€ RESET â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ */
 *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 html { font-size: 16px; }
 body {
@@ -56,7 +56,7 @@ button { cursor: pointer; border: none; background: none; font-family: inherit; 
 input, textarea { font-family: inherit; }
 a { color: inherit; }
 
-/* ── LOADING ─────────────────────────────────────────────────────────────── */
+/* â”€â”€ LOADING â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ */
 .app-loading {
   display: flex; flex-direction: column; align-items: center; justify-content: center;
   min-height: 100vh; gap: 16px; color: var(--text2);
@@ -70,7 +70,7 @@ a { color: inherit; }
 }
 @keyframes spin { to { transform: rotate(360deg); } }
 
-/* ── SITE HEADER ─────────────────────────────────────────────────────────── */
+/* â”€â”€ SITE HEADER â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ */
 .site-header {
   display: flex; align-items: center; gap: 16px;
   padding: 14px 28px;
@@ -132,7 +132,7 @@ a { color: inherit; }
   50% { opacity: 0.5; transform: scale(0.7); }
 }
 
-/* ── LOGIN PAGE ──────────────────────────────────────────────────────────── */
+/* â”€â”€ LOGIN PAGE â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ */
 .login-page {
   min-height: 100vh;
   background: var(--bg);
@@ -295,7 +295,7 @@ a { color: inherit; }
 .pro-deco { flex-direction: row-reverse; }
 .deco-vs { font-family: var(--font-display); font-size: 1.3rem; font-weight: 700; color: var(--text3); }
 
-/* ── WAITING PAGE ────────────────────────────────────────────────────────── */
+/* â”€â”€ WAITING PAGE â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ */
 .waiting-page { min-height: 100vh; background: var(--bg); }
 .waiting-main {
   display: flex; align-items: center; justify-content: center;
@@ -345,7 +345,7 @@ a { color: inherit; }
 .wt-name { font-weight: 600; font-size: 0.95rem; }
 .wt-vs { font-family: var(--font-display); font-size: 1.3rem; color: var(--text3); }
 
-/* ── JUDGE PAGE ──────────────────────────────────────────────────────────── */
+/* â”€â”€ JUDGE PAGE â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ */
 .judge-page { min-height: 100vh; background: var(--bg); }
 
 /* Phase tabs */
@@ -596,7 +596,7 @@ a { color: inherit; }
 .ty-icon { font-size: 1.4rem; }
 .ty-text { font-size: 1rem; font-weight: 600; color: var(--gold-color); }
 
-/* ── COORDINATOR PAGE ────────────────────────────────────────────────────── */
+/* â”€â”€ COORDINATOR PAGE â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ */
 .coordinator-page { min-height: 100vh; background: var(--bg); }
 .coord-tabs {
   display: flex;
@@ -615,7 +615,7 @@ a { color: inherit; }
 .coord-tab.active { color: var(--text); border-bottom-color: var(--accent); }
 .coord-main { max-width: 900px; margin: 0 auto; padding: 28px 20px 80px; }
 
-/* ── SETUP TAB ───────────────────────────────────────────────────────────── */
+/* â”€â”€ SETUP TAB â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ */
 .tab-section-title {
   font-family: var(--font-display);
   font-size: 1.3rem; font-weight: 600;
@@ -664,7 +664,7 @@ a { color: inherit; }
   line-height: 1.5;
 }
 
-/* ── PHASES TAB ──────────────────────────────────────────────────────────── */
+/* â”€â”€ PHASES TAB â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ */
 .phases-status-bar {
   display: flex; align-items: center; gap: 10px;
   padding: 12px 16px; margin-bottom: 16px;
@@ -793,7 +793,7 @@ a { color: inherit; }
 .jvt-aggregate.result-tie { background: var(--tie-light); color: var(--tie-color); }
 .agg-votes { opacity: 0.7; font-size: 0.8rem; margin-left: auto; }
 
-/* ── RESULTS TAB ─────────────────────────────────────────────────────────── */
+/* â”€â”€ RESULTS TAB â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ */
 .results-scoreboard {
   display: flex; align-items: center; justify-content: center;
   gap: 20px; margin-bottom: 28px;
@@ -886,7 +886,7 @@ a { color: inherit; }
 }
 .btn-export:hover { border-color: var(--accent); color: var(--accent); }
 
-/* ── RESET ZONE ──────────────────────────────────────────────────────────── */
+/* â”€â”€ RESET ZONE â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ */
 .reset-zone {
   max-width: 900px; margin: 0 auto;
   padding: 0 20px 32px;
@@ -919,7 +919,7 @@ a { color: inherit; }
   width: fit-content;
 }
 
-/* ── MODAL ───────────────────────────────────────────────────────────────── */
+/* â”€â”€ MODAL â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ */
 .modal-overlay {
   position: fixed; inset: 0;
   background: rgba(0,0,0,0.75);
@@ -981,13 +981,13 @@ a { color: inherit; }
 }
 .btn-print:hover { background: #6a5ff0; }
 
-/* ── SCROLLBAR ───────────────────────────────────────────────────────────── */
+/* â”€â”€ SCROLLBAR â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ */
 ::-webkit-scrollbar { width: 6px; }
 ::-webkit-scrollbar-track { background: var(--bg); }
 ::-webkit-scrollbar-thumb { background: var(--surface2); border-radius: 3px; }
 ::-webkit-scrollbar-thumb:hover { background: var(--border2); }
 
-/* ── PRINT ───────────────────────────────────────────────────────────────── */
+/* â”€â”€ PRINT â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ */
 @media print {
   .modal-overlay { position: static; background: none; backdrop-filter: none; }
   .modal-content { box-shadow: none; border: none; max-height: none; }
@@ -995,7 +995,7 @@ a { color: inherit; }
   body { background: white; color: black; }
 }
 
-/* ── RESPONSIVE ──────────────────────────────────────────────────────────── */
+/* â”€â”€ RESPONSIVE â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ */
 @media (max-width: 600px) {
   .setup-row { flex-direction: column; }
   .phase-tab { padding: 10px 12px; }
@@ -1005,3 +1005,182 @@ a { color: inherit; }
   .jvt-header, .jvt-row { grid-template-columns: 1fr 1fr 1fr; }
   .jvt-ts { display: none; }
 }
+
+/* â”€â”€ ORATOR VOTE CHIPS (judge view) â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ */
+.orator-vote-chip {
+  display: inline-flex; align-items: center; gap: 6px;
+  padding: 5px 12px;
+  border-radius: 20px;
+  font-size: 0.85rem; font-weight: 600;
+  border: 1.5px solid transparent;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+.orator-vote-chip.pro-chip {
+  background: var(--pro-light);
+  color: var(--pro-color);
+  border-color: rgba(59,158,255,0.25);
+}
+.orator-vote-chip.cons-chip {
+  background: var(--cons-light);
+  color: var(--cons-color);
+  border-color: rgba(255,94,107,0.25);
+}
+.orator-vote-chip.gold-voted {
+  background: var(--gold-light) !important;
+  color: var(--gold-color) !important;
+  border-color: var(--gold-color) !important;
+  box-shadow: 0 0 10px var(--gold-glow);
+}
+.orator-vote-chip:hover { opacity: 0.85; transform: translateY(-1px); }
+
+/* â”€â”€ ALSO MODERATOR BUTTON â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ */
+.btn-also-moderator {
+  font-size: 0.78rem; font-weight: 600;
+  padding: 5px 12px;
+  border-radius: 20px;
+  border: 1.5px solid var(--border2);
+  color: var(--text2);
+  background: var(--surface2);
+  transition: all 0.2s;
+  white-space: nowrap;
+}
+.btn-also-moderator:hover { border-color: var(--accent); color: var(--accent); }
+.btn-also-moderator.active { background: var(--accent-light); border-color: var(--accent); color: var(--accent); }
+
+/* â”€â”€ JUDGE AS MODERATOR WRAPPER â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ */
+.judge-as-moderator { min-height: 100vh; background: var(--bg); }
+.jam-bar {
+  display: flex; align-items: center; gap: 16px;
+  padding: 12px 20px;
+  background: var(--accent-light);
+  border-bottom: 1px solid var(--accent);
+}
+.jam-back-btn {
+  font-size: 0.85rem; font-weight: 600;
+  color: var(--accent);
+  padding: 6px 14px;
+  border-radius: var(--radius-sm);
+  border: 1px solid var(--accent);
+  transition: all 0.2s;
+}
+.jam-back-btn:hover { background: var(--accent); color: #fff; }
+.jam-label { font-size: 0.85rem; color: var(--accent); font-weight: 500; }
+
+/* â”€â”€ MOD PIN MODAL â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ */
+.mod-pin-modal { max-width: 360px; }
+.mod-pin-title { font-family: var(--font-display); font-size: 1.3rem; font-weight: 700; margin-bottom: 10px; }
+.mod-pin-desc { font-size: 0.88rem; color: var(--text2); margin-bottom: 16px; line-height: 1.5; }
+
+/* â”€â”€ RESULTS PHASE BREAKDOWN â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ */
+.prl-row-wrap { margin-bottom: 6px; }
+.prl-row {
+  display: flex; align-items: center; gap: 12px;
+  padding: 12px 16px;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-sm);
+  font-size: 0.88rem;
+  transition: background 0.2s;
+}
+.prl-row:hover { background: var(--surface2); }
+.prl-row-wrap .prl-row { border-radius: var(--radius-sm) var(--radius-sm) 0 0; margin-bottom: 0; }
+.prl-expand { margin-left: auto; color: var(--text3); font-size: 0.72rem; }
+
+.prl-detail {
+  background: var(--bg3);
+  border: 1px solid var(--border);
+  border-top: none;
+  border-radius: 0 0 var(--radius-sm) var(--radius-sm);
+  padding: 12px 16px;
+}
+.prl-judges-header {
+  display: grid; grid-template-columns: 1fr 1fr 1.5fr;
+  gap: 8px; padding-bottom: 8px; margin-bottom: 6px;
+  border-bottom: 1px solid var(--border);
+  font-size: 0.72rem; font-weight: 700; letter-spacing: 0.08em;
+  text-transform: uppercase; color: var(--text3);
+}
+.prl-judge-row {
+  display: grid; grid-template-columns: 1fr 1fr 1.5fr;
+  gap: 8px; padding: 7px 0;
+  border-bottom: 1px solid var(--border);
+  font-size: 0.83rem;
+  align-items: center;
+}
+.prl-judge-row:last-of-type { border-bottom: none; }
+.prl-jname { font-weight: 600; color: var(--text); }
+.prl-jverdict { font-weight: 600; }
+.prl-jotd { display: flex; flex-wrap: wrap; gap: 4px; }
+.otd-badge {
+  font-size: 0.75rem; font-weight: 600;
+  padding: 2px 8px; border-radius: 20px;
+}
+.otd-badge.gold { background: var(--gold-light); color: var(--gold-color); border: 1px solid rgba(245,200,66,0.3); }
+
+.prl-otd-tally {
+  display: flex; flex-wrap: wrap; gap: 10px;
+  margin-top: 10px; padding-top: 10px;
+  border-top: 1px solid var(--border);
+}
+.otd-tally-item {
+  font-size: 0.82rem; font-weight: 500;
+  padding: 4px 10px; border-radius: 20px;
+}
+.otd-tally-item.pro { background: var(--pro-light); color: var(--pro-color); }
+.otd-tally-item.cons { background: var(--cons-light); color: var(--cons-color); }
+
+/* â”€â”€ JUDGE SCORECARDS (results tab) â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ */
+.judge-scorecards {
+  display: flex; flex-wrap: wrap; gap: 12px;
+  margin-bottom: 24px;
+}
+.judge-scorecard {
+  flex: 1; min-width: 180px;
+  background: var(--surface);
+  border: 1px solid var(--border2);
+  border-radius: var(--radius);
+  padding: 14px 16px;
+  transition: all 0.2s;
+}
+.judge-scorecard.winner-pro { border-color: var(--pro-color); background: linear-gradient(160deg, var(--pro-light), var(--surface)); }
+.judge-scorecard.winner-cons { border-color: var(--cons-color); background: linear-gradient(160deg, var(--cons-light), var(--surface)); }
+.judge-scorecard.winner-tie { border-color: var(--tie-color); }
+
+.jsc-header {
+  display: flex; justify-content: space-between; align-items: center;
+  margin-bottom: 10px;
+}
+.jsc-name { font-weight: 700; font-size: 0.9rem; color: var(--text); }
+.jsc-winner {
+  font-size: 0.75rem; font-weight: 700; letter-spacing: 0.05em;
+  padding: 3px 8px; border-radius: 20px;
+}
+.jsc-winner.result-pro { background: var(--pro-light); color: var(--pro-color); }
+.jsc-winner.result-cons { background: var(--cons-light); color: var(--cons-color); }
+.jsc-winner.result-tie { background: var(--tie-light); color: var(--tie-color); }
+
+.jsc-score {
+  display: flex; align-items: baseline; gap: 6px;
+  margin-bottom: 12px;
+  font-family: var(--font-display);
+}
+.jsc-pro { font-size: 2rem; font-weight: 700; color: var(--pro-color); line-height: 1; }
+.jsc-dash { font-size: 1.2rem; color: var(--text3); }
+.jsc-cons { font-size: 2rem; font-weight: 700; color: var(--cons-color); line-height: 1; }
+.jsc-tie-note { font-size: 0.75rem; color: var(--tie-color); margin-left: 4px; }
+
+.jsc-phases {
+  display: flex; gap: 4px; flex-wrap: wrap;
+}
+.jsc-phase-dot {
+  width: 24px; height: 24px;
+  border-radius: 50%;
+  display: flex; align-items: center; justify-content: center;
+  font-size: 0.68rem; font-weight: 700;
+  cursor: default;
+}
+.jsc-phase-dot.result-pro { background: var(--pro-light); color: var(--pro-color); border: 1px solid var(--pro-color); }
+.jsc-phase-dot.result-cons { background: var(--cons-light); color: var(--cons-color); border: 1px solid var(--cons-color); }
+.jsc-phase-dot.result-tie { background: var(--tie-light); color: var(--tie-color); border: 1px solid var(--tie-color); }
+.jsc-phase-dot.pending { background: var(--surface2); color: var(--text3); border: 1px solid var(--border); }

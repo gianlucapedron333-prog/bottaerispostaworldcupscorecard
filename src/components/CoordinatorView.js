@@ -1,5 +1,5 @@
 // src/components/CoordinatorView.js
-import React, { useState, useEffect, useRef } from 'react';
+import React, { useState, useEffect } from 'react';
 import { db } from '../firebase/config';
 import { ref, set, remove, onValue } from 'firebase/database';
 import { PHASES, aggregateResults, calculateFinalScore, scorePhase, isPhaseComplete } from '../phases';
@@ -500,7 +500,7 @@ function ResultsTab({ aggregated, finalScore, teamPro, teamCons, allAnswers, num
                       </span>
                     </div>
                   ))}
-                  {(otdTally.nameA && otdTally.countA > 0 || otdTally.nameB && otdTally.countB > 0) && (
+                  {((otdTally.nameA && otdTally.countA > 0) || (otdTally.nameB && otdTally.countB > 0)) && (
                     <div className="prl-otd-tally">
                       {otdTally.nameA && otdTally.countA > 0 && <span className="otd-tally-item pro">⭐ {otdTally.nameA}: <strong>{otdTally.countA}</strong> vote{otdTally.countA !== 1 ? 's' : ''}</span>}
                       {otdTally.nameB && otdTally.countB > 0 && <span className="otd-tally-item cons">⭐ {otdTally.nameB}: <strong>{otdTally.countB}</strong> vote{otdTally.countB !== 1 ? 's' : ''}</span>}

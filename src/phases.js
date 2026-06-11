@@ -70,7 +70,7 @@ export const PHASES = [
     questions: [
       // Macro group (first two yes/no questions)
       { id: 'q1', text: 'Was the Pro rebuttal punctual and incisive?', weight: null, type: 'yesno', macroGroup: 'mg1', subject: 'pro' },
-      { id: 'q2', text: 'Was there good coordination between the members of the Pro team?', weight: null, type: 'yesno', macroGroup: 'mg1', subject: 'pro' },
+      { id: 'q2', text: 'Was there good coordination between the members of the Cons team?', weight: null, type: 'yesno', macroGroup: 'mg1', subject: 'cons' },
       // Standalone comparative
       { id: 'q3', text: 'Are the crucial objections raised still standing after the defense, or did the defense of the thesis have a more convincing grip?', weight: 1/3, type: 'comparative' },
       { id: 'q4', text: 'Which team had the best verbal, para-verbal and non-verbal communication?', weight: 1/3, type: 'comparative' },
@@ -93,7 +93,7 @@ export const PHASES = [
     questions: [
       // Macro group — INVERTED: q1 about Cons, q2 about Pro
       { id: 'q1', text: 'Was the Cons rebuttal punctual and incisive?', weight: null, type: 'yesno', macroGroup: 'mg1', subject: 'cons' },
-      { id: 'q2', text: 'Was there good coordination between the members of the Cons team?', weight: null, type: 'yesno', macroGroup: 'mg1', subject: 'cons' },
+      { id: 'q2', text: 'Was there good coordination between the members of the Pro team?', weight: null, type: 'yesno', macroGroup: 'mg1', subject: 'pro' },
       // Standalone comparative
       { id: 'q3', text: 'Are the crucial objections raised still standing after the defense, or did the defense of the thesis have a more convincing grip?', weight: 1/3, type: 'comparative' },
       { id: 'q4', text: 'Which team had the best verbal, para-verbal and non-verbal communication?', weight: 1/3, type: 'comparative' },
